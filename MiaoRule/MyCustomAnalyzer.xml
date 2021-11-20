@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>  
+<SourceAnalyzer Name="My Custom Rule">  
+    <Description>  
+        Custom rule for demo purposes.  
+    </Description>  
+    <Rules>  
+        <Rule Name="MiaoMiaoFindTargetMethod" CheckId="WA0001">  
+            <Context>发现say函数中的word输入参数</Context>  
+            <Description>Find Target Method.</Description>  
+        </Rule> 
+       <Rule Name="MiaoMiaoFindTargetClass" CheckId="WA0002">  
+            <Context>发现带Cat类</Context>  
+            <Description>Find Target Class.</Description>  
+        </Rule> 
+       <Rule Name="MiaoMiaoToStringMustProvideFormat" CheckId="WA0003">  
+            <Context>ToString必须声明格式</Context>  
+            <Description>`ToString()` Must Provide Format.</Description>  
+        </Rule>
+      <Rule Name="MiaoMiaoDebugReport" CheckId="RP0004">
+        <Context>这是个啥？ QAQ完全不认识呢~ {0}</Context>
+        <Description>Meow!!!! (-_ -)#</Description>
+      </Rule>
+    </Rules>  
+</SourceAnalyzer>
