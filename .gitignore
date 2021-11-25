@@ -5,3 +5,4 @@ packages/
 *.lnk
 Settings.StyleCop
 StyleCop.Cache
+.vs/

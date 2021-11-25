@@ -1,0 +1,1 @@
+xcopy /E /y .\bin\Debug\*.dll ..\packages\StyleCop.MSBuild.6.2.0\tools
